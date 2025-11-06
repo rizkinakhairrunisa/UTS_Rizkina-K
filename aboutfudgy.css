@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #eee8dc;
+  color: #070303;
+}
+
+header {
+  text-align: center;
+  background-color: #aa160e;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  justify-content: space-between;
+  text-align: center;
+  background-color: #aa160e;
+  padding: 20px 450px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav .nav-links li a:hover {
+  color: #f5c4a0; 
+}
+
+.logo img {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headertext {
+  font-style: italic;
+}
+
+.about-section {
+  padding: 120px 0;
+  background: var(--light-pink-color);
+}
+
+.about-section .section-content{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-content .about-image-wrapper .about-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+}
+
+.section-tittle {
+  text-align: center;
+  padding: 60px 0 100px;
+  text-transform: uppercase;
+  font-size: var(--font-size-xl);
+}
+
+.section-tittle::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: var(--border-radius-s);
+  background: #990e01;
+}
+
+.about-section .about-details .section-tittle {
+  padding: 0;
+}
+
+.about-section .about-details .text {
+  line-height: 30px;
+  margin: 50px 0 30px;
+  transform: translateY(50px);
+  font-size: medium;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #b2583a;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #990e01;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

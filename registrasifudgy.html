@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Fudgy</title>
+    <link rel="stylesheet" href="orderfudgy.css">
+    <link rel="icon" href="Image_coba/logo_fudgy.jpg" type="fudgy">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Image_coba/logo_fudgy.jpg" alt="Logo Fudybro">
+            <h1>ORDER FUDGYBRO</h1>
+        </div>
+            <p class="headertext">Let's Get 
+            <br>
+            #Fudgedup!
+            </p>
+    </header>
+
+    <nav>
+    <ul class="nav-links">
+        <li><a href="uts.html">Home</a></li>
+        <li><a href="aboutfudgy.html">About</a></li>
+        <li><a href="galerifudgy.html">Gallery</a></li>
+        <li><a href="menufudgy.html">Menu</a></li>
+        <li><a href="registrasifudgy.html">Order</a></li>
+        <li><a href="contactfudgy.html">Contact</a></li>
+    </ul>
+    </nav>
+
+    <section>
+        <p class="text">Wanna order your Fudgy Food!</p>
+        <form id="orderform">
+                <label for="nama">Nama Pelanggan</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap kamu">
+                <label for="nomor">Nomor Telfon/WA</label>
+                <input type="text" id="telfon" name="telfon" placeholder="08xxxxxxxxxx">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="email@gmail.com">
+                <label for="pesanan">Pesanan yang diinginkan</label>
+                <input type="text" id="pesanan" name="pesanan" placeholder="Cookie Bomb, Red Velvet Large, Oreo Reguler, Matcha Cup">
+                <label for="jumlah pesanan">Jumlah Pesanan</label>
+                <input type="text" id="jumlah" name="jumlah" placeholder="2/Red Velvet 2">
+                <label for="alamat">Alamat Pengiriman</label>
+                <input type="text" id="alamat" name="alamat" placeholder="Tuliskan alamat lengkap">
+                <label for="catatan">Catatan Pesanan</label>
+                <input type="text" id="catatan" name="catatan" placeholder="Detail alamat/less sugar/memiliki alergen/diambil langsung ke toko">
+        <button id="showPopup">Kirim Pesanan</button>
+        </form>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <p>Terima kasih atas pesanan-nya, pesanan akan segera dikirim &#x1F495;</p>
+                <button id="okBtn">Oke</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Fudgybro | Design by Rizkina</p>
+    </footer>
+
+    <script src="orderfudgy.js"></script>
+</body>
+</html>

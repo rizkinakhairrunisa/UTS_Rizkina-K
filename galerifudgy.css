@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #eee8dc;
+  color: #070303;
+}
+
+header {
+  text-align: center;
+  background-color: #aa160e;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  justify-content: space-between;
+  text-align: center;
+  background-color: #aa160e;
+  padding: 20px 450px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav .nav-links li a:hover {
+  color: #f5c4a0; 
+}
+
+.logo img {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.logo h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headertext {
+  font-style: italic;
+}
+
+section h1 {
+  text-align: center;
+  padding: 60px 0 100px;
+  text-transform: uppercase;
+  font-size: var(--font-size-xl);
+}
+
+section h1::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: var(--border-radius-s);
+  background: #990e01;
+}
+
+
+.foto-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.foto-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  list-style: none;
+   padding: 0;
+  margin: 0;
+}
+
+.foto-container li {
+  margin: 0;
+}
+
+.foto-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: 0.3s ease;
+}
+
+.foto-container img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #b2583a;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #990e01;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
